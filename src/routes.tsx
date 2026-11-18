@@ -2,6 +2,7 @@ import { createBrowserRouter, type RouteObject } from "react-router";
 import App from "./App";
 import Faq from "./pages/Faq";
 import Integrantes from "./pages/Integrantes";
+import Locais from "./pages/Locais";
 import NotFound from "./pages/NotFound";
 import Sobre from "./pages/Sobre";
 
@@ -17,7 +18,7 @@ export const rotas: RouteObject[] = [
     path: "/",
     element: <App />,
     children: [
-    
+      { path: "locais", element: <Locais /> },
       { path: "sobre", element: <Sobre /> },
       { path: "integrantes", element: <Integrantes /> },
       { path: "faq", element: <Faq /> },
