@@ -3,6 +3,8 @@ import App from "./App";
 import Faq from "./pages/Faq";
 import Integrantes from "./pages/Integrantes";
 import NotFound from "./pages/NotFound";
+import Sobre from "./pages/Sobre";
+
 /**
  * Mapa de rotas. As três páginas da solução:
  *   /locais       lista (GET) e cadastro (POST) de locais
@@ -15,6 +17,8 @@ export const rotas: RouteObject[] = [
     path: "/",
     element: <App />,
     children: [
+    
+      { path: "sobre", element: <Sobre /> },
       { path: "integrantes", element: <Integrantes /> },
       { path: "faq", element: <Faq /> },
       { path: "*", element: <NotFound /> },
