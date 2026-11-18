@@ -171,33 +171,6 @@ src/
 - **Dicas**: dos recursos em que o local já registrou desperdício, da maior para a menor economia estimada.
 - O mês exibido é o atual; se ele não tem registros, o painel abre no mês do registro mais recente.
 
-## Roteiro do vídeo
-
-1. **Início**: o exemplo ao vivo mostra a Padaria Pão Quente com a meta de alimento estourada.
-2. **Locais**: busque "pao", filtre por Negócios e cadastre um local novo (mostre as mensagens de validação antes).
-3. **Painel** do novo local: sem registros, com dicas gerais. Abra a Padaria: réguas, custo, CO₂ e troca de mês.
-4. **Registrar**: tente quantidade 0 e data futura, depois salve um registro e abra o painel.
-5. **Painel**: edite e exclua um registro, ajuste uma meta.
-6. **Regras da API**: tente excluir um local com registros (409) e exclua o "Casa do João e Lúcia", que não tem.
-7. **Sobre**, **FAQ** e **Integrantes**.
-
-## Fluxo de trabalho (Git Flow)
-
-- `main`: versão entregue e publicada (recebe só por Pull Request ou release, com tag).
-- `develop`: integração das funcionalidades.
-- `feature/*`: uma branch por funcionalidade, sempre a partir da `develop`.
-- Os commits seguem o padrão `feat:`, `fix:`, `docs:`, `chore:` e `refactor:`.
-
-Features do projeto: `setup-projeto`, `tipos-e-utilitarios`, `componentes-ui`, `layout-e-rotas`, `paginas-institucionais`, `integracao-api`, `pagina-locais`, `pagina-registrar`, `painel-do-local`, `home-e-contato`, `responsividade-acessibilidade` e `deploy-e-documentacao`.
-
-```bash
-git flow init -d
-git flow feature start nome-da-tarefa
-git add . && git commit -m "feat: descreve o que foi feito"
-git flow feature finish nome-da-tarefa
-git push origin develop
-```
-
 ## Uso de IA generativa
 
 Em conformidade com as regras da Global Solution 2026/2, declaramos o uso de IA generativa neste projeto.
@@ -218,6 +191,13 @@ Em conformidade com as regras da Global Solution 2026/2, declaramos o uso de IA 
 | <img src="src/assets/img/Thiago.jpeg" width="64" height="64" alt="Foto de Thiago"> | Thiago Vendrami Luca | 572942 | 1-TDSPI | [Thiagovluca](https://github.com/Thiagovluca) | [perfil](https://br.linkedin.com/in/thiago-vendrami-luca-4892a6409) |
 | <img src="src/assets/img/Carlos.jpeg" width="64" height="64" alt="Foto de Carlos"> | Carlos Americo Machado Brambilla | 571250 | 1-TDSPI | [CarlosAmericoMachado](https://github.com/CarlosAmericoMachado) | [perfil](https://www.linkedin.com/in/carlos-brambilla-b5b971407) |
 | <img src="src/assets/img/Murilo.jpeg" width="64" height="64" alt="Foto de Murilo"> | Murilo da Silva Lourenço | 573959 | 1-TDSPI | [murilojosh](https://github.com/murilojosh) | [perfil](https://www.linkedin.com/in/murilo-lourenço-35250b411) |
+
+## Contato
+
+- Perfis de cada integrante (GitHub e LinkedIn) na tabela da equipe acima.
+- Representante do grupo: [Miguel-V-M-dev](https://github.com/Miguel-V-M-dev).
+- Repositório: <https://github.com/Miguel-V-M-dev/Front-End_GS_2026_Ecoloop>. Dúvidas e sugestões podem ser abertas em *Issues*.
+- Também é possível enviar uma mensagem pela página `/contato` da aplicação.
 
 ---
 
