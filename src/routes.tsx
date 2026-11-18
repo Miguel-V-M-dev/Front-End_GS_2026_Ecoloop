@@ -1,6 +1,6 @@
 import { createBrowserRouter, type RouteObject } from "react-router";
 import App from "./App";
-
+import Integrantes from "./pages/Integrantes";
 import NotFound from "./pages/NotFound";
 
 /**
@@ -15,7 +15,9 @@ export const rotas: RouteObject[] = [
     path: "/",
     element: <App />,
     children: [
-      
+
+      { path: "integrantes", element: <Integrantes /> },
+
       { path: "*", element: <NotFound /> },
     ],
   },
