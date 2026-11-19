@@ -15,7 +15,7 @@
 
 ---
 
-## Sobre o projeto
+## Objetivo
 
 Front-end da **Global Solution 2026/2 (CitizenTech), ideia 04**: reduzir o desperdício de **água, energia e alimentos** em casas, comunidades e pequenos negócios.
 
@@ -28,7 +28,7 @@ O usuário cadastra locais, registra cada desperdício (recurso, quantidade, cau
 | Deploy (Vercel) | <https://front-end-gs-2026-ecoloop.vercel.app> |
 | Repositório (GitHub) | <https://github.com/Miguel-V-M-dev/Front-End_GS_2026_Ecoloop> |
 | API Java (Render) | <https://api-java-global-solution-fiap.onrender.com> |
-| Vídeo de apresentação (até 3 min) | _(preencher)_ |
+| Vídeo de apresentação (YouTube, até 3 min) | <https://youtu.be/7hhAh39jTEM> |
 
 ## Tecnologias
 
@@ -81,7 +81,7 @@ Os dados vêm da API Java, que lê o banco Oracle criado a partir do script SQL 
 | `tb_meta` | `/locais/{id}/metas` | réguas do painel (associativa N:N local x recurso) |
 | `tb_contato` | `/contatos` | página `/contato` |
 
-## Como rodar
+## Como rodar (execução)
 
 ### Pré-requisitos
 
@@ -182,7 +182,7 @@ Em conformidade com as regras da Global Solution 2026/2, declaramos o uso de IA 
 - Todo o código e todo o texto gerados com apoio de IA foram lidos, testados e revisados pelo grupo, que entende e consegue explicar o que foi entregue.
 - As decisões do projeto (tema, telas, regras de negócio e integração com a API Java) foram tomadas pela equipe.
 
-## Equipe Ecoloop
+## Integrantes (Equipe Ecoloop)
 
 | Foto | Nome | RM | Turma | GitHub | LinkedIn |
 | --- | --- | --- | --- | --- | --- |
@@ -194,10 +194,22 @@ Em conformidade com as regras da Global Solution 2026/2, declaramos o uso de IA 
 
 ## Contato
 
+<<<<<<< HEAD
 - Perfis de cada integrante (GitHub e LinkedIn) na tabela da equipe acima.
 - Representante do grupo: [Miguel-V-M-dev](https://github.com/Miguel-V-M-dev).
 - Repositório: <https://github.com/Miguel-V-M-dev/Front-End_GS_2026_Ecoloop>. Dúvidas e sugestões podem ser abertas em *Issues*.
 - Também é possível enviar uma mensagem pela página `/contato` da aplicação.
+=======
+| Canal | Onde |
+| --- | --- |
+| Representante do grupo | [Miguel-V-M-dev](https://github.com/Miguel-V-M-dev) |
+| Repositório (GitHub) | <https://github.com/Miguel-V-M-dev/Front-End_GS_2026_Ecoloop> |
+| Aplicação publicada (Vercel) | <https://front-end-gs-2026-ecoloop.vercel.app> |
+| Vídeo de apresentação (YouTube) | <https://youtu.be/7hhAh39jTEM> |
+| Mensagem pelo site | página `/contato` da aplicação |
+
+Dúvidas e sugestões também podem ser abertas em *Issues* no repositório. Os perfis de GitHub e LinkedIn de cada integrante estão na tabela de integrantes.
+>>>>>>> origin/main
 
 ---
 
