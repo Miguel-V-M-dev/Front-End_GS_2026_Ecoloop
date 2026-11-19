@@ -15,7 +15,7 @@
 
 ---
 
-## Sobre o projeto
+## Objetivo
 
 Front-end da **Global Solution 2026/2 (CitizenTech), ideia 04**: reduzir o desperdício de **água, energia e alimentos** em casas, comunidades e pequenos negócios.
 
@@ -28,7 +28,7 @@ O usuário cadastra locais, registra cada desperdício (recurso, quantidade, cau
 | Deploy (Vercel) | <https://front-end-gs-2026-ecoloop.vercel.app> |
 | Repositório (GitHub) | <https://github.com/Miguel-V-M-dev/Front-End_GS_2026_Ecoloop> |
 | API Java (Render) | <https://api-java-global-solution-fiap.onrender.com> |
-| Vídeo de apresentação (até 3 min) | _(preencher)_ |
+| Vídeo de apresentação (YouTube, até 3 min) | <https://youtu.be/7hhAh39jTEM> |
 
 ## Tecnologias
 
@@ -81,7 +81,7 @@ Os dados vêm da API Java, que lê o banco Oracle criado a partir do script SQL 
 | `tb_meta` | `/locais/{id}/metas` | réguas do painel (associativa N:N local x recurso) |
 | `tb_contato` | `/contatos` | página `/contato` |
 
-## Como rodar
+## Como rodar (execução)
 
 ### Pré-requisitos
 
@@ -171,33 +171,6 @@ src/
 - **Dicas**: dos recursos em que o local já registrou desperdício, da maior para a menor economia estimada.
 - O mês exibido é o atual; se ele não tem registros, o painel abre no mês do registro mais recente.
 
-## Roteiro do vídeo
-
-1. **Início**: o exemplo ao vivo mostra a Padaria Pão Quente com a meta de alimento estourada.
-2. **Locais**: busque "pao", filtre por Negócios e cadastre um local novo (mostre as mensagens de validação antes).
-3. **Painel** do novo local: sem registros, com dicas gerais. Abra a Padaria: réguas, custo, CO₂ e troca de mês.
-4. **Registrar**: tente quantidade 0 e data futura, depois salve um registro e abra o painel.
-5. **Painel**: edite e exclua um registro, ajuste uma meta.
-6. **Regras da API**: tente excluir um local com registros (409) e exclua o "Casa do João e Lúcia", que não tem.
-7. **Sobre**, **FAQ** e **Integrantes**.
-
-## Fluxo de trabalho (Git Flow)
-
-- `main`: versão entregue e publicada (recebe só por Pull Request ou release, com tag).
-- `develop`: integração das funcionalidades.
-- `feature/*`: uma branch por funcionalidade, sempre a partir da `develop`.
-- Os commits seguem o padrão `feat:`, `fix:`, `docs:`, `chore:` e `refactor:`.
-
-Features do projeto: `setup-projeto`, `tipos-e-utilitarios`, `componentes-ui`, `layout-e-rotas`, `paginas-institucionais`, `integracao-api`, `pagina-locais`, `pagina-registrar`, `painel-do-local`, `home-e-contato`, `responsividade-acessibilidade` e `deploy-e-documentacao`.
-
-```bash
-git flow init -d
-git flow feature start nome-da-tarefa
-git add . && git commit -m "feat: descreve o que foi feito"
-git flow feature finish nome-da-tarefa
-git push origin develop
-```
-
 ## Uso de IA generativa
 
 Em conformidade com as regras da Global Solution 2026/2, declaramos o uso de IA generativa neste projeto.
@@ -209,7 +182,7 @@ Em conformidade com as regras da Global Solution 2026/2, declaramos o uso de IA 
 - Todo o código e todo o texto gerados com apoio de IA foram lidos, testados e revisados pelo grupo, que entende e consegue explicar o que foi entregue.
 - As decisões do projeto (tema, telas, regras de negócio e integração com a API Java) foram tomadas pela equipe.
 
-## Equipe Ecoloop
+## Integrantes (Equipe Ecoloop)
 
 | Foto | Nome | RM | Turma | GitHub | LinkedIn |
 | --- | --- | --- | --- | --- | --- |
@@ -218,6 +191,18 @@ Em conformidade com as regras da Global Solution 2026/2, declaramos o uso de IA 
 | <img src="src/assets/img/Thiago.jpeg" width="64" height="64" alt="Foto de Thiago"> | Thiago Vendrami Luca | 572942 | 1-TDSPI | [Thiagovluca](https://github.com/Thiagovluca) | [perfil](https://br.linkedin.com/in/thiago-vendrami-luca-4892a6409) |
 | <img src="src/assets/img/Carlos.jpeg" width="64" height="64" alt="Foto de Carlos"> | Carlos Americo Machado Brambilla | 571250 | 1-TDSPI | [CarlosAmericoMachado](https://github.com/CarlosAmericoMachado) | [perfil](https://www.linkedin.com/in/carlos-brambilla-b5b971407) |
 | <img src="src/assets/img/Murilo.jpeg" width="64" height="64" alt="Foto de Murilo"> | Murilo da Silva Lourenço | 573959 | 1-TDSPI | [murilojosh](https://github.com/murilojosh) | [perfil](https://www.linkedin.com/in/murilo-lourenço-35250b411) |
+
+## Contato
+
+| Canal | Onde |
+| --- | --- |
+| Representante do grupo | [Miguel-V-M-dev](https://github.com/Miguel-V-M-dev) |
+| Repositório (GitHub) | <https://github.com/Miguel-V-M-dev/Front-End_GS_2026_Ecoloop> |
+| Aplicação publicada (Vercel) | <https://front-end-gs-2026-ecoloop.vercel.app> |
+| Vídeo de apresentação (YouTube) | <https://youtu.be/7hhAh39jTEM> |
+| Mensagem pelo site | página `/contato` da aplicação |
+
+Dúvidas e sugestões também podem ser abertas em *Issues* no repositório. Os perfis de GitHub e LinkedIn de cada integrante estão na tabela de integrantes.
 
 ---
 
