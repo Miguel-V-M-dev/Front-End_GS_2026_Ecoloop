@@ -1,0 +1,12 @@
+GLOBAL SOLUTION 2026/2 - CitizenTech
+Disciplina: Front-End Design Engineering
+Projeto: Ecoloop | Desperdício Zero
+Grupo: Ecoloop
+
+INTEGRANTES
+
+RM: 571978 | Nome: Miguel Vieira Martins | Turma: 1-TDSPI
+RM: 572722 | Nome: Gustavo Neri Andrade | Turma: 1-TDSPI
+RM: 572942 | Nome: Thiago Vendrami Luca | Turma: 1-TDSPI
+RM: 571250 | Nome: Carlos Americo Machado Brambilla | Turma: 1-TDSPI
+RM: 573959 | Nome: Murilo da Silva Lourenço | Turma: 1-TDSPI
