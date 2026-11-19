@@ -194,22 +194,10 @@ Em conformidade com as regras da Global Solution 2026/2, declaramos o uso de IA 
 
 ## Contato
 
-<<<<<<< HEAD
-- Perfis de cada integrante (GitHub e LinkedIn) na tabela da equipe acima.
-- Representante do grupo: [Miguel-V-M-dev](https://github.com/Miguel-V-M-dev).
-- Repositório: <https://github.com/Miguel-V-M-dev/Front-End_GS_2026_Ecoloop>. Dúvidas e sugestões podem ser abertas em *Issues*.
-- Também é possível enviar uma mensagem pela página `/contato` da aplicação.
-=======
-| Canal | Onde |
-| --- | --- |
-| Representante do grupo | [Miguel-V-M-dev](https://github.com/Miguel-V-M-dev) |
-| Repositório (GitHub) | <https://github.com/Miguel-V-M-dev/Front-End_GS_2026_Ecoloop> |
-| Aplicação publicada (Vercel) | <https://front-end-gs-2026-ecoloop.vercel.app> |
-| Vídeo de apresentação (YouTube) | <https://youtu.be/7hhAh39jTEM> |
-| Mensagem pelo site | página `/contato` da aplicação |
-
-Dúvidas e sugestões também podem ser abertas em *Issues* no repositório. Os perfis de GitHub e LinkedIn de cada integrante estão na tabela de integrantes.
->>>>>>> origin/main
+- **Representante do grupo:** [Miguel-V-M-dev](https://github.com/Miguel-V-M-dev)
+- **Mensagem pelo site:** formulário da página `/contato` da aplicação.
+- **Dúvidas e sugestões:** *Issues* do repositório.
+- Os perfis de GitHub e LinkedIn de cada integrante estão na tabela de integrantes acima.
 
 ---
 
